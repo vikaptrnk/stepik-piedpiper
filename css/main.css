@@ -1,0 +1,259 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.header {
+    background: #007765;
+    padding-top: 20px;
+    padding-bottom: 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-nav ul > li {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+.header-nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: white;
+}
+
+li > a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-nav ul > hr {
+    height: 24px;
+    margin: 0 8px;
+}
+
+.section-1 {
+    background-image: url("../img/image.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    height: 403px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-1 span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: white;
+}
+
+.problem {
+    background: #EEEEEE;
+    padding-top: 48px;
+    padding-bottom: 92px;
+
+    display: flex;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.problem-title {
+    margin-bottom: 16px;
+}
+
+.problem-title span {
+    color: #007765;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.problem-text {
+    max-width: 1100px;
+}
+
+.problem-text p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    margin: 0;
+    color: #000000;
+}
+
+.together {
+    background-image: url("../img/section-together.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    height: 483px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.together-text {
+    max-width: 893px;
+    text-align: center;
+}
+
+.together-text p {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #FFFFFF;
+}
+
+.ppc {
+    padding-top: 48px;
+    padding-bottom: 92px;
+}
+
+.ppc-title {
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.ppc-content {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.ppc-title span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    color: #007765;
+}
+
+.ppc-text img {
+    float: left;
+    margin-right: 48px;
+}
+.ppc-text p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    margin: 0;
+}
+
+.team {
+    background: #EEEEEE;
+    padding-top: 58px;
+    padding-bottom: 84px;
+}
+.team-title {
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.team-title span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    color: #007765;
+}
+
+.team-list-item {
+    flex: 0 0 350px;
+    -ms-flex: 0 0 350px;
+    -webkit-flex: 0 0 350px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row-gap: 12px;
+
+    flex-direction: column;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+}
+
+.team-list-item-info {
+    text-align: center;
+}
+
+.team-list {
+    display: flex;
+    justify-content: center;
+    max-width: 1110px;
+
+    flex-wrap: wrap;
+    grid-column-gap: 30px;
+    grid-row-gap: 58px;
+
+    margin: 0 auto;
+}
+
+.team-list-item-name span {
+    color: #007765;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.team-list-item-place span {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.footer {
+    background: #333333;
+    padding: 50px 0 62px
+}
+
+.footer-text {
+    max-width: 540px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer-text p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin: 0;
+}
